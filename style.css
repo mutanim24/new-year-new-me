@@ -1,0 +1,149 @@
+/* universal css */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* banner section */
+header{
+    background-image: url(./images/banner/banner1.png);
+}
+.banner{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding: 200px 0;
+}
+.banner h1{
+    font-size: 65px;
+}
+.banner p{
+    font-size: 20px;
+}
+.btn{
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* my previous year */
+.previous-year{
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    gap: 90px;
+}
+
+.previous-year-text{}
+.previous-year-text h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.description{
+    padding: 19px 0;
+}
+.previous-year-text p{
+    max-width: 13px 0;
+}
+.previous-year-text p i{
+    margin-right: 6px;
+    color: green;
+}
+
+/* My plan */
+.plan-title{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0;
+}
+.plan-items{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.item{
+    text-align: center;
+}
+.item h4{
+    font-size: 20px;
+}
+.item p{
+    color: gray;
+}
+/* call to action */
+.call-to-action{
+    background-image: url(./images/watch.png), url(./images/gradient1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px;
+    border-radius: 8px;
+    margin: 45px;
+}
+.call-to-action h1{
+    color: white;
+    font-size: 40px;
+}
+.call-now-btn{
+    background-color: white;
+    color: orangered;
+    padding: 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    padding: 100px 0;
+
+}
+.footer-container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 200px;
+}
+.footer-left{
+    color: white;
+}
+.footer-left h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer-left p{
+    margin: 20px 0;
+    font-weight: 400;
+}
+.footer-left img{
+    width: 30px;
+    margin-right: 10px;
+}
+.footer-right{
+    color: white;
+}
+.footer-right input[type="email"]{
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 15px 0;
+}
