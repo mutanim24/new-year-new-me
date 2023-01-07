@@ -136,8 +136,8 @@ header{
     text-align: center;
     background-color: lightgray;
     border-left: 10px solid gray;
-    
     padding: 20px 30px;
+    margin: 100px 0;
 }
 .my-moto img{
     width: 100px;
