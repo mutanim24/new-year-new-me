@@ -10,6 +10,40 @@ main{
     margin: 0 auto;
 }
 
+/* nav bar */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.nav-bar h1{
+    font-size: 45px;
+    color: orangered;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav-bar ul li{
+    padding: 0px 13px;
+    border-left: 1px solid gray;
+    list-style: none;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: orangered;
+    font-weight: 700;
+}
+.nav-bar ul li a:hover{
+    color: black;
+}
+
 /* banner section */
 header{
     background-image: url(./images/banner/banner1.png);
@@ -24,19 +58,25 @@ header{
     justify-content: center;
     align-items: center;
     text-align: right;
-    padding: 200px 0;
+    padding: 130px 0;
 }
 .banner h1{
     font-size: 65px;
+    width: 500px;
+    margin-left: 500px;
 }
 .banner p{
-    font-size: 20px;
+    font-size: 16px;
+    width: 500px;
+    margin-left: 500px;
+    padding: 30px 0;
+    line-height: 30px;
 }
 .btn{
     background-color: orangered;
     color: white;
     font-size: 20px;
-    padding: 20px;
+    padding: 15px 20px;
     border: 0;
     border-radius: 5px;
 }
@@ -45,8 +85,8 @@ header{
 .previous-year{
     display: flex;
     align-items: center;
-    padding: 100px 0;
     gap: 90px;
+    padding: 70px 0;
 }
 
 .previous-year-text{}
@@ -59,6 +99,7 @@ header{
 }
 .previous-year-text p{
     max-width: 13px 0;
+    line-height: 27px;
 }
 .previous-year-text p i{
     margin-right: 6px;
@@ -66,6 +107,9 @@ header{
 }
 
 /* My plan */
+.my-plan{
+    padding-bottom: 50px;
+}
 .plan-title{
     font-size: 35px;
     font-weight: 700;
@@ -88,17 +132,21 @@ header{
 }
 /* call to action */
 .call-to-action{
-    background-image: url(./images/watch.png), url(./images/gradient1.png);
+    background: linear-gradient(to right, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url("../images/watch.png"), url("../images/gradient2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 60px;
     border-radius: 8px;
     margin: 45px;
+    
 }
 .call-to-action h1{
     color: white;
     font-size: 40px;
+    width: 500px;
+    margin-bottom: 10px;
 }
 .call-now-btn{
     background-color: white;
@@ -129,7 +177,9 @@ footer{
 }
 .footer-left p{
     margin: 20px 0;
-    font-weight: 400;
+    width: 500px;
+    font-size: 16px;
+    line-height: 25px;
 }
 .footer-left img{
     width: 30px;
@@ -141,7 +191,7 @@ footer{
 .footer-right input[type="email"]{
     background-color: black;
     padding: 20px;
-    width: 100%;
+    width: 80%;
     color: white;
     border: 1px solid white;
     border-radius: 5px;
