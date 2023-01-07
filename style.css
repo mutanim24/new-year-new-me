@@ -133,7 +133,7 @@ header{
 /* call to action */
 .call-to-action{
     background: linear-gradient(to right, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
-    url("../images/watch.png"), url("../images/gradient2.png");
+    url("./images/watch.png"), url("./images/gradient1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
