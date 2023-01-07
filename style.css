@@ -130,6 +130,25 @@ header{
 .item p{
     color: gray;
 }
+
+/* moto */
+.my-moto{
+    text-align: center;
+    background-color: lightgray;
+    border-left: 10px solid gray;
+    
+    padding: 20px 30px;
+}
+.my-moto img{
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+.my-moto p span{
+    font-size: 90px;
+    color: rgb(184, 184, 184);
+    align-items: center;
+}
 /* call to action */
 .call-to-action{
     background: linear-gradient(to right, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
